@@ -84,3 +84,18 @@ Le fichier celestial_database_extended.py contient une base de données enrichie
 - Objets du ciel profond (Messier, NGC...) : M31, M42, M45, M13...
 - Recommandations par niveau (débutant, intermédiaire, expert) avec filtrage en temps réel selon la visibilité
 - Chaque objet est décrit par son nom, type, coordonnées (RA, Dec), magnitude.
+
+
+
+ATTENTION 
+Pour pouvoir faire tout fonctionné correctement, il faut utiliser un environnement virtuel.
+Exemple de script à utiliser : 
+
+#!/bin/bash
+# Script simple pour lancer fullv2.py au démarrage du Raspberry Pi
+#script de lancement
+cd /home/pi
+source oled-env/bin/activate
+python fullv2.py
+
+Quelque chose comme ca mais le faire automatiquement avec eventuellement un script .sh qui le ferait tout seul.
