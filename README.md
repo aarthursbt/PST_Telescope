@@ -92,8 +92,8 @@ Pour pouvoir faire tout fonctionné correctement, il faut utiliser un environnem
 Exemple de script à utiliser : 
 
 #!/bin/bash
-# Script simple pour lancer fullv2.py au démarrage du Raspberry Pi
-#script de lancement
+Script simple pour lancer fullv2.py au démarrage du Raspberry Pi
+
 cd /home/pi
 source oled-env/bin/activate
 python fullv2.py
